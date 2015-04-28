@@ -1,0 +1,21 @@
+{
+    "name": "mkuk/mailgun-mailer",
+    "description": "Implementation of NetteNette\\Mail\\IMailer for sending Nette\\Mail\\Message through the Mailgun service",
+    "license": "MIT",
+    "keywords": ["Nette", "Mailgun", "Mailer", "IMailer"],
+    "authors": [
+	{
+	    "name": "Michael Kuk",
+	    "email": "89kuk.michael@gmail.com"
+	}
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	"php": ">=5.3.0",
+	"mailgun/mailgun-php": "~1.7.2",
+	"nette/nette": "~2.3.0"
+    },
+    "autoload": {
+	"classmap": ["src/"]
+    }
+}
