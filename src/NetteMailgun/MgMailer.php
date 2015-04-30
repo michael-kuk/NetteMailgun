@@ -54,7 +54,7 @@ class MgMailer implements IMailer{
     }
 
     /**
-     * Implementtion of Send method
+     * Implementation of Send method
      * ============================
      * 
      * Parse Nette\Mail\Message and send vie Mailgun
@@ -89,7 +89,7 @@ class MgMailer implements IMailer{
 	$c = 0;
 	foreach ($mails as $k => $v) {
 	    $return .= $c === 0 ? '' : ', ';
-	    $return.= (!empty($v) ? '' : $v . ' ') . "<$k>";
+	    $return.= (empty($v) ? '' : $v . ' ') . "<$k>";
 	    $c++;
 	}
 	return $return;
