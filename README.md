@@ -17,4 +17,4 @@ __Constructor parameters__ are
   - Domain - domain you have created in the mailgun service
   - API Key - Your Mailgun API key
   
-Use MgMailer be calling __send__ method with \Nette\Mail\Message Object as a parameter.
+Use MgMailer by calling __send__ method with \Nette\Mail\Message Object as a parameter.
